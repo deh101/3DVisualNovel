@@ -930,6 +930,7 @@ GameObject:
   - component: {fileID: 1990772014}
   - component: {fileID: 1990772013}
   - component: {fileID: 1990772018}
+  - component: {fileID: 1990772019}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -985,7 +986,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: New Conversation 1
+  conversation: Questioning
   conversationConversant: {fileID: 1990772017}
   conversationActor: {fileID: 135756641613574979}
   startConversationEntryID: -1
@@ -1113,6 +1114,20 @@ MonoBehaviour:
     onUse:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &1990772019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990772012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa6cb7825d05f04bbb53a7e77ecea90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_yAxisOnly: 1
+  m_rotate180: 0
 --- !u!114 &2006620068 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8616685848737228376, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
